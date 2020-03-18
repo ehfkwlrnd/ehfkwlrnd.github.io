@@ -1,0 +1,14 @@
+---
+layout: default
+title: JAVASCRIPT
+permalink: /javascript/
+code: menu
+---
+<div>
+JAVASCRIPT<br>
+	{% for page in site.pages %}
+		{% if page.code == "javascript"%}
+			<a href="{{page.url}}" class="">{{page.title}}</a><br>
+		{% endif %}
+	{% endfor %}
+</div>
