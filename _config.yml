@@ -19,7 +19,7 @@ google-analytics:
 
 exclude: ['package.json', 'src' , 'node_modules']
 
-collections:
-    category:
-        permalink: /category/:path/
-        output: true
+#collections:
+#    category:
+#        permalink: /category/:path/
+#        output: true
