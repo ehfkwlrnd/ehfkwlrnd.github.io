@@ -37,6 +37,10 @@ plugins:
   - jekyll-feed
   
 exclude: ['package.json', 'src' , 'node_modules']
+markdown: redcarpet
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "strikethrough", "superscript", "with_toc_data"]
+# highlighter: rouge
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
